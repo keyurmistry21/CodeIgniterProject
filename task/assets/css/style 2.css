@@ -1,0 +1,134 @@
+body {
+    background: #17324F;
+}
+h2 {
+    color: #17324F;
+}
+.report-detail {
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(56,65,74,.15);
+    border-radius: 3px;
+    padding-top: 15px;
+    width: calc(25% - 10px);
+    margin-left: 10px;
+}
+table td {
+    font-size: 14px;
+}
+.card {
+    box-shadow: 0 1px 2px rgba(56,65,74,.15);
+    border: 0px;
+}
+.card-main { 
+    max-width: 300px;
+    padding: 15px;
+    background: #DBE6EA;
+    overflow: hidden;
+}
+.card-img {
+    overflow: hidden;
+    background: #fff;
+    z-index: 0;
+}
+.card-inner-img {
+    background: #17324F;
+    border-radius: 0;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 100% 250px;
+    border-bottom-right-radius: 100% 250px;
+    width: calc(100% + 100px) ;
+    margin-left: -50px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.card-inner-img:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: #B7CCE7;
+    border-radius: 0;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 100% 400px;
+    border-bottom-right-radius: 100% 400px;
+    width: calc(100% + 100px);
+    margin-left: -50px;
+    z-index: -1;
+}
+.card-img h5 {
+    text-transform: capitalize;
+    font-size: 18px; 
+    color: #fff;
+    margin-top: 15px;
+    max-width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card-img img {
+    width: 100px;
+    border-radius: 50px;
+    height: 100px;
+    object-fit: cover;
+}
+.card-details {
+    padding: 15px;
+    background: #fff;
+}
+.card-details p {
+    display: flex;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.card-details p span { 
+    margin-right: 10px;
+    min-width: 63px;
+}
+.tab-content {
+    padding: 20px;
+    border: 1px solid #e2d6d6;
+    height: 320px;
+    overflow-y: auto;
+}
+.nav-tabs .nav-link {
+    color: #17324F;
+    border-color: #17324F !important;
+}
+.nav-tabs .nav-link:hover {
+    border-color: #17324F;
+}
+.nav-tabs .nav-link.active {
+    background: #17324F;
+    color: #fff;
+}
+.list-subdomain, .list-certificate, .list-port, .list-hosted, .list-share-hosted, .list-name, .list-phone {
+    margin-bottom: 5px;
+}
+.tab-pane .threat-port:first-child {
+    border-top: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.threat-port {
+    border-top: 1px solid #e2d6d6;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background: #17324F;
+    color: #fff !important;
+}
+table.dataTable thead th, table.dataTable tfoot th {
+    font-weight: 500;
+    color: #17324F;
+}
+.vulnerability-uri {
+    color: #17324F;
+}
